@@ -52,7 +52,7 @@ let ennableBtns=()=>{
 
 let showWinner=(winner)=>{
     disableBtns();
-    p.innerText=`Congrats. This Winner is ${winner}`;
+    p.innerText=`Congrats.Winner is ${winner}`;
     msg_container.classList.remove("hide");
 }
 
